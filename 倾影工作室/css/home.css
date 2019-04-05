@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:century gothic;
+}
+
+.headbar{
+    width:100%;
+    background-color:rgb(0,0,0);
+    overflow:hidden;
+    height:75px;
+}
+
+h1{
+    color:#fff;
+    padding-left:35px;
+    padding-top:12px;
+}
+
+ul{
+    float:right;
+    list-style:none;
+    margin-top:-28px;
+}
+
+ul li{
+    display:inline-block;
+    padding-right:10px;
+}
+
+ul li a{
+    color:#fff;
+    text-decoration:none;
+    padding:5px 10px;
+    border:1px solid #fff;
+}
+
+ul li a:hover{
+    background-color:#fff;
+    color:#000000;
+    border-radius:3px;
+}
